@@ -4,12 +4,13 @@ import Card from "../UI/Card";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
-  const [title, setTitle] = useState();
+  const [title, setTitle] = useState(props.title);
   return (
     <Card className="expense-item">
-      <ExpenseDate date={props}></ExpenseDate>
-      <div className=".expense-item__description">
-        <div className=".expense-item__price"></div>
+      <ExpenseDate date={props.date}></ExpenseDate>
+      <div className="expense-item__description">
+        <h2>{props.title}</h2>
+        <div className="expense-item__price">${props.amount}</div>
       </div>
     </Card>
   );
