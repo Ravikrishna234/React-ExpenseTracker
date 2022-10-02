@@ -1,6 +1,6 @@
 function Card(props) {
-  const classes = "card";
-  return <div className={classes}></div>;
+  const classes = "card " + props.className;
+  return <div className={classes}>{props.children}</div>;
 }
 
 export default Card;
