@@ -3,7 +3,8 @@ import "./ExpenseForm.css";
 
 function ExpenseForm(props) {
   const [enteredTitle, setEnteredTitle] = useState("");
-  const [enteredAmount, setEnteredAmount] = useState("");
+  // const [enteredAmount, setEnteredAmount] = useState("");
+  const [enteredAmount, setEnteredAmount] = useState(0);
   const [enteredDate, setEnteredDate] = useState("");
 
   // This is to use 1 state instead of 3 states
@@ -30,12 +31,13 @@ function ExpenseForm(props) {
     event.preventDefault();
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
     props.onSaveExpenseData(expenseData);
     setEnteredTitle("");
-    setEnteredAmount("");
+    // setEnteredAmount("");
+    setEnteredAmount(0);
     setEnteredDate("");
   };
   return (
