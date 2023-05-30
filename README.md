@@ -37,8 +37,9 @@ The Expense Tracker is a React application that helps you track your expenses. Y
 
 
 ## Screenshots
+![Screenshot_1](https://github.com/Ravikrishna234/React-ExpenseTracker/assets/41903289/159f6961-39cd-4016-af39-8aa8ee312490)
+![Screenshot_2](https://github.com/Ravikrishna234/React-ExpenseTracker/assets/41903289/afc164a1-2f4a-4a4c-b044-aea356e458ca)
 
-![Screenshot_1](https://drive.google.com/file/d/1bCFCXxZhMkBxmcdDPRYN5aPbjwAhErC4/view?usp=share_link)
 
 
 ## Contributions
