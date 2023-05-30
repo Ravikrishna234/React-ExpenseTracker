@@ -46,7 +46,7 @@ A live demo of the Expense Tracker can be found on CodeSandbox at the following 
 
 
 ## Contributions
-Contributions to the Expense Tracker project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request.
+Contributions to the Expense Tracker project are welcome. If you find any issues nor have suggestions for improvements, please submit a pull request.
 
 Connect with me: 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dontula-ravikrishna-905722165/)
