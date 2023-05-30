@@ -2,6 +2,9 @@
 
 The Expense Tracker is a React application that helps you track your expenses. You can add expenses by providing a title, amount, and date. The application provides visualizations in the form of bar charts for each month of the year, allowing you to analyze your expenses over time. You can also filter the expenses by year for a more focused view. Additionally, the application displays a list of all expenses and supports switching between dark and light mode.
 
+# Demo
+A live demo of the Expense Tracker can be found on CodeSandbox at the following link:
+[Expense Tracker Demo](https://lsrlpg.csb.app/)
 
 # Features
 
