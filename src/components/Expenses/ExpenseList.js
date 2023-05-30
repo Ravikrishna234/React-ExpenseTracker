@@ -16,7 +16,7 @@ function ExpenseList(props) {
           date={expense.date}
         ></ExpenseItem>
       ))}
-      ;
+    
     </ul>
   );
 }
